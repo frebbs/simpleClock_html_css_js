@@ -2,10 +2,14 @@
     box-sizing: border-box;
     font-family: 'Bowlby One SC', cursive;
     font-size: 62.75%;
+    color: blanchedalmond;
 }
 
 body {
-    background: linear-gradient(to right, rgba(64, 74, 90, 0.9), rgba(74, 94, 70, 0.9));
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('/bm2/img/landing-page.jpg') no-repeat center;*/
+    background: linear-gradient(rgba(0, 0, 0, .6), transparent), url("yellow-sphere-illustration-39649.jpg") no-repeat center;
+    background-size: cover;
+    /*background: linear-gradient(to right, rgba(64, 74, 90, 0.9), rgba(74, 94, 70, 0.9));*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +20,7 @@ body {
 .clock {
     width: 600px;
     height: 600px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     border: 2px solid black;
     position: relative;
@@ -74,17 +78,17 @@ body {
 .clock .hand.second {
     width: 3px;
     height: 45%;
-    background-color: blue;
+    background-color: white;
 }
 
 .clock .hand.minute {
     width: 7px;
     height: 40%;
-    background-color: black;
+    background-color: white;
 }
 
 .clock .hand.hour {
     width: 10px;
     height: 35%;
-    background-color: orangered;
+    background-color: white;
 }
